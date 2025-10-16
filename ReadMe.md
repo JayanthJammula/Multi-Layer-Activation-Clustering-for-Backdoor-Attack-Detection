@@ -6,7 +6,7 @@ Deep neural networks trained on untrusted data can inherit malicious backdoor be
 
 This repository implements a multi-layer activation clustering pipeline that fuses Spectral Signature analysis with the Activation Clustering defense. By extracting representations from several layers, we capture both high-level class semantics and lower-level trigger traces, making it harder for a backdoor signal to remain concealed in any single feature space. Suspicious clusters are highlighted, visualized, and can be used to filter or relabel compromised samples before retraining.
 
-The scripts mirror the workflow from our paper: craft and visualize attacks, train potentially compromised models, harvest per-layer activations, and run the Spectral Signature (SS) and Activation Clustering (AC) defenses. Together they form a reproducible toolkit for evaluating and hardening models against data poisoning attacks.
+The scripts mirror the workflow: craft and visualize attacks, train potentially compromised models, harvest per-layer activations, and run the Spectral Signature (SS) and Activation Clustering (AC) defenses. Together they form a reproducible toolkit for evaluating and hardening models against data poisoning attacks.
 
 ### References
 
