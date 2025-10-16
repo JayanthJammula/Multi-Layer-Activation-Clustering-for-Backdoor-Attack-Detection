@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Generated data and artifacts
+data/
+attacks/
+contam/
+features/
+features_backdoor/
+MLAC_results/
+
+# Model and analysis outputs
+*.pth
+*.npy
+*.npz
+
+# Misc
+.DS_Store
