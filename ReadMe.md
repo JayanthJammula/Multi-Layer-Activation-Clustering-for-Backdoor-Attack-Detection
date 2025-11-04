@@ -22,7 +22,7 @@ CUDA V10.1.243
 
 ### Usage
 
-Create an attack (1SC attack with pattern B in our paper) by
+Create an attack (1SC attack with pattern B) by
 
 ```
 python attack_crafting.py
